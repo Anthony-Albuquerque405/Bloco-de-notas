@@ -1,0 +1,43 @@
+.form_title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.form {
+  border: 0.5px solid #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 30vh;
+  margin: auto;
+}
+
+.form_input,
+.form_textarea {
+  width: 35vw;
+  height: 4vw;
+  margin: 4px;
+  border-radius: 10px;
+  border: 1px solid #000000da;
+  padding-left: 5px;
+}
+
+.form_textarea {
+  resize: none;
+  height: 25vh;
+}
+
+.form_button {
+  background-color: #0000ff;
+  color: #eee;
+  font-weight: bold;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 9px;
+  margin: 5px;
+  align-self: flex-end;
+  margin-right: 2.5vw;
+}
