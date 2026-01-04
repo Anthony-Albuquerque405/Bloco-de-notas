@@ -1,8 +1,5 @@
 body {
-  background: url("../img/nota-fundo.png") no-repeat;
-  background-attachment: fixed;
-  backdrop-filter: unset;
-  background-size: cover;
+  background-color: #fff1c4a6;
 }
 
 .note_section {

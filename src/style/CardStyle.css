@@ -1,6 +1,6 @@
 .note {
   width: 12em;
-  height: 20em;
+  height: 17em;
   border: 1px solid #000;
   border-radius: 25px;
   margin: 10px;
@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("../img/bloco-notas.png") center center fixed;
+  background-size: cover;
 }
 
 .note_id {
